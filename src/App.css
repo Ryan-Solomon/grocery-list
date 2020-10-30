@@ -26,6 +26,17 @@ html {
   border-radius: 2px;
 }
 
+.card form input {
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
+
+.card form input:focus {
+  outline: none;
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
 .btn-container .btn {
   border-radius: 5px;
   padding: 0.5rem;
